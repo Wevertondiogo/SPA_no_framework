@@ -28,6 +28,9 @@ async function Router() {
 
   console.log(match.route.view());
 }
+
+window.addEventListener("popstate", Router);
+
 document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
     if (e.target.matches("[data-link]")) {
