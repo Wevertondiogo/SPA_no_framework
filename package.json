@@ -1,0 +1,23 @@
+{
+  "name": "SPA_no_framework",
+  "version": "1.0.0",
+  "description": "\"# SPA_no_framework\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wevertondiogo/SPA_no_framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wevertondiogo/SPA_no_framework/issues"
+  },
+  "homepage": "https://github.com/Wevertondiogo/SPA_no_framework#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
