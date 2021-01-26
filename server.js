@@ -3,8 +3,10 @@ const path = require("path");
 
 const app = express();
 
+app.use("/static", express.static(path.resolve(__dirname, "src", "static")));
+
 app.get("/*", (req, res) => {
-  res.sendFile(path.resolve("src", "index.html"));
+  res.sendFile(path.resolve(__dirname, "src", "index.html"));
 });
 
-app.listen(process.env.PORT || 5060, () => console.log("Server is running..."));
+app.listen(process.env.PORT || 8080, () => console.log("Server is running..."));
